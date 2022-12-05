@@ -7,17 +7,16 @@ export default function Menubar()
     return (
         <div className="Menubar">
             <nav className="Navbar"> 
-                <list>
-                    <li className="Home"> 
-                        Home
+                <list className = "Menulist">
+                <li className="Roadmap">
+                        Roadmap
                     </li>
                     <li className="Team">
                         Team
                     </li>
-                    <li className="Roadmap">
-                        Roadmap
+                    <li className="Home"> 
+                        Home
                     </li>
-                    
                 </list>
             </nav>
         </div>

@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../assets/images/Background.png");
+  /* background-image: url("../assets/images/Background.png");
   background-size:contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 800vh
   ;
 }

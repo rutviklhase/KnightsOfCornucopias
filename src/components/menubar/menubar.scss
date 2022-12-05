@@ -1,12 +1,30 @@
 .Menubar{
    background-color: black;
+   background-blend-mode:luminosity;
    color: white;
    height: 8vh;
+   width: 100vw;
+   top: 0px;
    
    
    .Navbar{
-      list-style-type: none;
-      display: flex;
-      flex-direction: column;
+      .Menulist{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 5vw;
+        .Home{
+         padding: 2vh 2vw;
+        }
+        .Roadmap{
+         padding: 2vh 2vw;
+        }
+        .Team{
+         padding: 2vh 2vw;
+        }
+      }
+      
    }
+   position: fixed;
+   
 }
