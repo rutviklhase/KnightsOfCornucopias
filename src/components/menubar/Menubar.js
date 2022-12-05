@@ -6,13 +6,16 @@ export default function Menubar()
 {
     return (
         <div className="Menubar">
-            <nav> 
+            <nav className="Navbar"> 
                 <list>
-                    <li> 
+                    <li className="Home"> 
                         Home
                     </li>
-                    <li>
+                    <li className="Team">
                         Team
+                    </li>
+                    <li className="Roadmap">
+                        Roadmap
                     </li>
                     
                 </list>
