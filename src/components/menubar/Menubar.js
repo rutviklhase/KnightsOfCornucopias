@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./menubar.scss"
+import logo from "../../assets/images/logo.png"
 
 export default function Menubar()
 {
@@ -16,6 +17,9 @@ export default function Menubar()
                     </li>
                     <li className="Home"> 
                         Home
+                    </li>
+                    <li className="LogoMain"> 
+                        <img src={logo}/>
                     </li>
                 </list>
             </nav>

@@ -5,9 +5,12 @@
    height: 8vh;
    width: 100vw;
    top: 0px;
+   z-index: 9999;
    
    
    .Navbar{
+      
+      font-family:Poppins;
       .Menulist{
         list-style-type: none;
         display: flex;
@@ -15,12 +18,21 @@
         padding-right: 5vw;
         .Home{
          padding: 2vh 2vw;
+         font-size: 3vh;
         }
         .Roadmap{
          padding: 2vh 2vw;
+         font-size: 3vh;
         }
         .Team{
          padding: 2vh 2vw;
+         font-size: 3vh;
+        }
+        .LogoMain{
+         padding-right: 53vw;
+            img{
+               width: 14vw;
+            }
         }
       }
       
@@ -28,3 +40,6 @@
    position: fixed;
    
 }
+
+
+ 

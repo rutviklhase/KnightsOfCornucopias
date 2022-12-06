@@ -1,9 +1,26 @@
 .HomeBody{
-    color: yellow;
+    color: #f7d22d;
+    -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke-color: #392f03;
     margin-top: 35vh;
+      font-family: 'Ringbearer Medium';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2vw;
     .HomeContent{
         padding-right: 10vw;
         padding-left: 10vw;
         color: aliceblue;
+        font-size: 1.5vw;
+     }
+    .castlebig{
+        width: 1px;
     }
 }
+
+@font-face {
+    font-family: 'Ringbearer Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ringbearer Medium'), url("../../assets/fonts/ringbearer-cufonfonts-webfont/RINGM___.woff") format('woff');
+    }

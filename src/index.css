@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url("../assets/images/Background.png");
+  background-image: url("assets/images/Background2.png");
   background-size:contain;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   height: 800vh
   ;
 }
@@ -16,3 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Ringbearer Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ringbearer Medium'), url("../src/assets/fonts/ringbearer-cufonfonts-webfont/RINGM___.woff") format('woff');
+  }
