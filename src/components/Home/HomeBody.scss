@@ -1,5 +1,7 @@
 .HomeBody{
     color: #f7d22d;
+    text-shadow:  20px 20px 20px rgb(255, 200, 0);
+    -webkit-animation: glow 2s linear infinite;
     -webkit-text-stroke: 0.1px black;
     -webkit-text-stroke-color: #392f03;
     margin-top: 35vh;
@@ -11,11 +13,14 @@
         padding-right: 10vw;
         padding-left: 10vw;
         color: aliceblue;
-        font-size: 1.5vw;
-     }
+        font-size: 1.2vw;
+        font-family:Poppins;
+        text-shadow:  0 0 0px rgb(255, 200, 0);
+    }
     .castlebig{
         width: 1px;
     }
+   
 }
 
 @font-face {
@@ -24,3 +29,20 @@
     font-weight: normal;
     src: local('Ringbearer Medium'), url("../../assets/fonts/ringbearer-cufonfonts-webfont/RINGM___.woff") format('woff');
     }
+
+@keyframes glow
+{
+  0%{
+    text-shadow:  0 0 10px rgb(255, 200, 0);
+  }
+  50%{
+    text-shadow:  0 0 0px rgb(255, 200, 0);
+  }
+  100%{
+    text-shadow:  0 0 10px rgb(255, 200, 0);
+  }
+
+}
+
+
+

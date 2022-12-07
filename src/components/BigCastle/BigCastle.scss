@@ -1,27 +1,22 @@
 .BigCastle{
-   padding-left: 30vw;
-   padding-top: 20vh;
-   -webkit-animation: wiggle 20s ease infinite;
-   z-index: -1;
+   padding-left: 50vw;
+   position: absolute;
+   top: 100vh;
+   -webkit-animation: wiggle 2s ease infinite;
+   z-index: 9998;
 }
-
-// @-webkit-keyframes wiggle
-// {
-//     0% {-webkit-transform: rotateZ(2deg);}
-//     50% {-webkit-transform: rotateZ(-2deg);}
-//     100% {-webkit-transform: rotateZ(2deg);}
-// }
-
-// @-moz-keyframes wiggle
-// {
-//     0% {-moz-transform: rotateZ(2deg);}
-//     50% {-moz-transform: rotateZ(-2deg);}
-//     100% {-moz-transform: rotateZ(2deg);}
-// }
 
 @keyframes wiggle
 {
-    0% {transform: rotateZ(5deg);}
-    50% {transform: rotateZ(-5deg);}
-    100% {transform: rotateZ(5deg);}
+    0% {
+        top: 100vh;
+    }
+    50%{
+        top: 105vh;
+    }
+    100%{
+        top: 100vh;
+    }
+
+
 }
