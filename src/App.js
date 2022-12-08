@@ -12,8 +12,6 @@ import Team from './components/Team/Team';
 function App() {
   return (
     <div className="App">
-      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-      <script type="text/javascript" src="dist/js/timeline.min.js"></script>
      <div className='backgroundimageclass'>
       <img src='../assets/images/Background.png' />
 
