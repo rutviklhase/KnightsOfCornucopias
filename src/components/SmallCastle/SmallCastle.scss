@@ -1,0 +1,25 @@
+.SmallCastle{
+    padding-left: 10vw;
+    position: absolute;
+    -webkit-animation: wiggle2 10s linear infinite;
+    top: 10vh;
+    
+    z-index: -1;
+ }
+ 
+ @keyframes wiggle2
+ {
+     0% {
+         top: 13vh;
+         padding-left: 10vw;
+     }
+     50%{
+         top: 15vh;
+         padding-left: 7vw;
+     }
+     100%{
+         top: 13vh;
+         padding-left: 10vw;
+     }
+ }
+ 

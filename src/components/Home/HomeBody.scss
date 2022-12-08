@@ -1,22 +1,31 @@
 .HomeBody{
-    color: #f7d22d;
-    text-shadow:  20px 20px 20px rgb(255, 200, 0);
-    -webkit-animation: glow 2s linear infinite;
-    -webkit-text-stroke: 0.1px black;
-    -webkit-text-stroke-color: #392f03;
+  
+  // -webkit-text-stroke-color: #390303;
+  
+  // -webkit-text-stroke: 0.1px black;
+
+    
+  .HomeHead{
+    color: #ffd000;
+    text-shadow:  20px 20px 20px rgb(0, 0, 0);
+    // -webkit-animation: glow 2s linear infinite;
     margin-top: 35vh;
-      font-family: 'Ringbearer Medium';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2vw;
-    .HomeContent{
-        padding-right: 10vw;
-        padding-left: 10vw;
-        color: aliceblue;
-        font-size: 1.2vw;
-        font-family:Poppins;
-        text-shadow:  0 0 0px rgb(255, 200, 0);
-    }
+    font-family: 'Ringbearer Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    -webkit-animation: glow 2s linear infinite;
+  }
+  
+  .HomeContent{
+    -webkit-animation: fadein 3s ease;
+      padding-right: 10vw;
+      padding-left: 10vw;
+      color: aliceblue;
+      font-size: 1.2vw;
+      font-family:Poppins;
+      text-shadow:  0 0 0px rgb(255, 200, 0);
+  }
     .castlebig{
         width: 1px;
     }
@@ -33,15 +42,26 @@
 @keyframes glow
 {
   0%{
-    text-shadow:  0 0 10px rgb(255, 200, 0);
+    text-shadow:  0px 0px 10px rgb(162, 0, 0);
+    -webkit-text-stroke-color: #9b1000;
+    -webkit-text-stroke-width: 0.1vh;
   }
   50%{
-    text-shadow:  0 0 0px rgb(255, 200, 0);
+    text-shadow:  0px 0px 10px rgb(255, 187, 0);
+    -webkit-text-stroke-color: #7b0c00;
+    -webkit-text-stroke-width: 0.1vh;
   }
   100%{
-    text-shadow:  0 0 10px rgb(255, 200, 0);
+    text-shadow:  0px 0px 10px rgb(162, 0, 0);
+    -webkit-text-stroke-color: #9b1000;
+    -webkit-text-stroke-width: 0.1vh;
   }
 
+}
+
+@keyframes fadein {
+  from {opacity: 0; padding-top: 100px;}
+  to {opacity: 1; padding-top: 0px;}  
 }
 
 

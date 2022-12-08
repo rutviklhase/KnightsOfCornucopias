@@ -1,8 +1,8 @@
-.Team{
-    position:relative;
-    z-index: 4;
-    padding-top: 160vh;
-    .TeamHeading{
+.Roadmap{
+    .RoadmapHead{
+        position:relative;
+        z-index: 4;
+        padding-top: 170vh;
         color: #f7d22d;
         text-shadow:  20px 20px 20px rgb(255, 200, 0);
         -webkit-animation: glow 2s linear infinite;
