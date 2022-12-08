@@ -1,7 +1,6 @@
 .Team{
     position:relative;
     z-index: 4;
-    padding-top: 160vh;
     .TeamHeading{
         color: #f7d22d;
         text-shadow:  20px 20px 20px rgb(255, 200, 0);
@@ -12,5 +11,18 @@
         font-style: normal;
         font-weight: normal;
         font-size: 2vw;
+    }
+    .CardText{
+        font-family: Poppins;
+        font-weight: 800;
+        background-color: #e6c120;
+    }
+    .TeamMems{
+        display: flex;
+        padding: 30px;
+        justify-content: center;
+        .Member{
+            
+        }
     }
 }

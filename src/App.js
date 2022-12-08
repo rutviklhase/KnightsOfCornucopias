@@ -8,22 +8,30 @@ import BigCastle from './components/BigCastle/BigCastle';
 import SmallCastle from './components/SmallCastle/SmallCastle';
 import Roadmap from './components/Roadmap/Roadmap';
 import Team from './components/Team/Team';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
-    <div className="App">
-     <div className='backgroundimageclass'>
-      <img src='../assets/images/Background.png' />
+    
+      <ParallaxProvider>
+          <div className="App">
+          <div className='backgroundimageclass'>
+          <img src='../assets/images/Background.png' />
 
-     </div>
-     <Menubar />
-     <HomeBody />
-     <BigCastle />
-     <SmallCastle size = "300px"/>
-     <Roadmap />
-     <Team />
+        </div>
+        <Menubar />
+        <HomeBody />
+        <BigCastle />
+        <SmallCastle size = "300px"/>
+        <Roadmap />
+        <Team />
 
     </div>
+
+
+
+      </ParallaxProvider>
+    
   );
 }
 

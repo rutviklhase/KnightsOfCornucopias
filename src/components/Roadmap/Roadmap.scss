@@ -1,8 +1,9 @@
 .Roadmap{
+    
     .RoadmapHead{
         position:relative;
         z-index: 4;
-        padding-top: 170vh;
+        padding-top: 130vh;
         color: #f7d22d;
         text-shadow:  20px 20px 20px rgb(255, 200, 0);
         -webkit-animation: glow 2s linear infinite;
@@ -13,4 +14,39 @@
         font-weight: normal;
         font-size: 2vw;
     }
+    .Map{
+        display: grid;
+        padding-top: 10vh;
+        
+        .line{
+            padding-left: 48vw;
+            width: 0.8vh;
+        }
+        .road{
+            margin-top: -2vh;
+            padding-left: 37vw;
+            margin-bottom: -3vh;
+        }
+        .roadtop{
+            padding-left: 38vw;
+        }
+        .roadname{
+            margin-top: -6vh ;
+            font-family: Poppins;
+            font-size: 2vh;
+            font-weight: 600;
+            color: white;
+        }
+        .island{
+            width: 90vw;
+            position: relative;
+            bottom: 130vh;
+            z-index: -9999;
+            padding-left: 5vw;
+        }
+       
+    }
+   
+
+    
 }
