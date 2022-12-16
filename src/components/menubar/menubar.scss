@@ -9,18 +9,18 @@
    
    .Navbar{
       
-      font-family:Poppins;
+      font-family:HighTower;
       .Menulist{
         list-style-type: none;
         display: flex;
         flex-direction: row-reverse;
         padding-right: 5vw;
         .Home{
-         padding: 2vh 2vw;
+         padding: 2vh 1vw;
          font-size: 3vh;
         }
         .Roadmap{
-         padding: 2vh 2vw;
+         padding: 2vh 1vw;
          font-size: 3vh;
         }
         .Team{
@@ -40,5 +40,12 @@
    
 }
 
+@font-face {
+   font-family: 'HighTower';
+   font-style: normal;
+   font-weight: normal;
+   src: url("../../assets/fonts/high-tower-text/HTOWERT.TTF");
+   }
+ 
 
  

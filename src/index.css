@@ -8,8 +8,8 @@ body {
   background-image: url("assets/images/Background3.png");
   background-size:contain;
   background-repeat: no-repeat;
-  height: 800vh
-  ;
+  background-color: black;
+  height: 700vh;
 }
 
 code {

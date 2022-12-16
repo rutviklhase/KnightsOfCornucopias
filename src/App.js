@@ -9,7 +9,8 @@ import SmallCastle from './components/SmallCastle/SmallCastle';
 import Roadmap from './components/Roadmap/Roadmap';
 import Team from './components/Team/Team';
 import { ParallaxProvider } from 'react-scroll-parallax';
-
+import Footer from "./components/Footer/Footer"
+import NFT from './components/NFTs/NFT';
 function App() {
   return (
     
@@ -25,6 +26,10 @@ function App() {
         <SmallCastle size = "300px"/>
         <Roadmap />
         <Team />
+        <NFT/>
+        <Footer/>
+        
+        
 
     </div>
 

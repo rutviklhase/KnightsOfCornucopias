@@ -10,13 +10,13 @@ export default function Menubar()
             <nav className="Navbar"> 
                 <list className = "Menulist">
                 <li className="Roadmap">
-                        Roadmap
+                        ROADMAP
                     </li>
                     <li className="Team">
-                        Team
+                        TEAM
                     </li>
                     <li className="Home"> 
-                        Home
+                        HOME
                     </li>
                     <li className="LogoMain"> 
                         <img src={logo}/>

@@ -9,10 +9,10 @@ export default function Team(){
         <div className="Team">
             <h1 className="TeamHeading"> --------- Meet our Team -------</h1>
             <div className="TeamMems">
-                <Card sx={{ maxWidth: "300px",  m: 2}} className="Member">
+                <Card sx={{ maxWidth: "200px",  m: 5}} className="Member">
                     <CardMedia
                         component="img"
-                        height="300"
+                        height="200"
                         image={knight1}
                         alt="green iguana"
                     />
@@ -25,10 +25,10 @@ export default function Team(){
                         </div>
                 </Card>
                 
-                <Card sx={{ maxWidth: 300,  m: 2}}>
+                <Card sx={{ maxWidth: 200,  m: 5}}>
                     <CardMedia
                         component="img"
-                        height="300"
+                        height="200"
                         image={knight1}
                         alt="green iguana"
                     />
@@ -41,10 +41,10 @@ export default function Team(){
                         </div>
                 </Card>
 
-                <Card sx={{ maxWidth: 300,  m: 2}}>
+                <Card sx={{ maxWidth: 200,  m: 5}}>
                     <CardMedia
                         component="img"
-                        height="300"
+                        height="200"
                         image={knight1}
                         alt="green iguana"
                     />
@@ -57,10 +57,10 @@ export default function Team(){
                         </div>
                 </Card>
 
-                <Card sx={{ maxWidth: 300,  m: 2}}>
+                <Card sx={{ maxWidth: 200,  m: 5}}>
                     <CardMedia
                         component="img"
-                        height="300"
+                        height="200"
                         image={knight1}
                         alt="green iguana"
                     />
@@ -73,10 +73,10 @@ export default function Team(){
                         </div>
                 </Card>
 
-                <Card sx={{ maxWidth: 300,  m: 2}}>
+                <Card sx={{ maxWidth: 200,  m: 5}}>
                     <CardMedia
                         component="img"
-                        height="300"
+                        height="200"
                         image={knight1}
                         alt="green iguana"
                     />
@@ -88,6 +88,7 @@ export default function Team(){
                             <span>Founder</span>
                         </div>
                 </Card>
+                
             </div>
         </div>
     )
