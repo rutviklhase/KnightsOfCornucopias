@@ -24,7 +24,7 @@ function App() {
         <Menubar />
         <HomeBody />
         <BigCastle />
-        <SmallCastle size = "300px"/>
+        <SmallCastle size = "400px"/>
         <Roadmap />
         <Team />
         <NFT/>
