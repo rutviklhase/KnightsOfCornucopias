@@ -8,7 +8,7 @@ export default function Home(){
         <div className="HomeBody">
             <h1 className="HomeHead">Knights Guild of Cornucopias</h1>
             <p className="HomeContent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            The Knights of Cornucopias is a CNFT gaming guild for Cornucopias Game that is being built on the Cardano blockchain. As a guild, we have acquired a massive inventory of Cornucopias NFTs and have also created our own Knight NFTs that will have in-game utility as well as income potential. The Knights is not only the premier in-game Guild, we are also a positive community that advocates for players from all over the world. Join us and rise to the top of the metaverse as we build and grow together.
             </p>
             
         </div>

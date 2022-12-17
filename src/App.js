@@ -11,6 +11,7 @@ import Team from './components/Team/Team';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Footer from "./components/Footer/Footer"
 import NFT from './components/NFTs/NFT';
+import Faq from './components/Faq/Faq';
 function App() {
   return (
     
@@ -27,6 +28,7 @@ function App() {
         <Roadmap />
         <Team />
         <NFT/>
+        <Faq/>
         <Footer/>
         
         

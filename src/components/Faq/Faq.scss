@@ -1,0 +1,47 @@
+.Faq{
+    .FaqHeading{
+        color: #f7d22d;
+            text-shadow:  20px 20px 20px rgb(255, 200, 0);
+            -webkit-animation: glow 2s linear infinite;
+            -webkit-text-stroke: 0.1px black;
+            -webkit-text-stroke-color: #392f03;
+            font-family: 'Ringbearer Medium';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2vw;
+    }
+    .FaqBody{
+        
+        -webkit-animation: fadein 3s ease;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        padding-top: 2vh;
+        color: whitesmoke;
+        font-size: 1.5vw;
+        font-family:'HighTower';
+        font-style: normal;
+        font-weight: normal;
+        text-shadow:  0 2px 5px rgb(0, 0, 0);
+        
+    }
+    .Questions{
+        text-align: left;
+        padding-left: 10vw;
+        color:aliceblue;
+        padding-top: 5vh;
+        font-family:'HighTower';
+        font-size: 1.5vw;        
+
+    }
+    .Answers{
+        text-align: left;
+        padding-left: 10vw;
+        padding-top: 2vh;
+        padding-right: 10vw;
+        color:aliceblue;
+        font-family:'HighTower';
+        font-size: 1vw;
+
+    }
+
+}

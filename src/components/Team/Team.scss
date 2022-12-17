@@ -1,5 +1,4 @@
 .Team{
-    position:relative;
     z-index: 4;
     .TeamHeading{
         color: #f7d22d;
@@ -19,10 +18,6 @@
     }
     .TeamMems{
         display: flex;
-        padding: 30px;
         justify-content: center;
-        .Member{
-            
-        }
     }
 }
