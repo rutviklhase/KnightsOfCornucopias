@@ -5,6 +5,10 @@ import knight1 from "../../assets/images/knight1.png"
 import knight2 from "../../assets/images/knight2.png"
 import knight3 from "../../assets/images/knight3.png"
 import knight4 from "../../assets/images/knight4.png"
+import mh from "../../assets/images/mh.jpg"
+import juju from "../../assets/images/juju.jpg"
+import braz from "../../assets/images/braz.jpeg"
+
 import { color } from '@mui/system';
 import { Parallax } from "react-scroll-parallax";
 
@@ -18,7 +22,7 @@ export default function Team(){
                     <CardMedia
                         component="img"
                         height="200"
-                        image={knight1}
+                        image={mh}
                         alt="green iguana"
                     />
                     <Typography>
@@ -26,7 +30,7 @@ export default function Team(){
                     </Typography>
                         <div className='CardText'>
                             
-                            <span>Round Table Operations</span>
+                            <span>Strategy & Operations</span>
                         </div>
                 </Card>
                 
@@ -42,15 +46,15 @@ export default function Team(){
                     </Typography>
                         <div className='CardText'>
                             
-                            <span>Round Table Marketing</span>
+                            <span>Finance & Marketing</span>
                         </div>
                 </Card>
 
-                <Card sx={{ maxWidth: 200,  m: 5}}>
+                <Card sx={{ Width: 200,  m: 5}}>
                     <CardMedia
                         component="img"
                         height="200"
-                        image={knight3}
+                        image={braz}
                         alt="green iguana"
                     />
                     <Typography>
@@ -58,7 +62,7 @@ export default function Team(){
                     </Typography>
                         <div className='CardText'>
                             
-                            <span>Round Table Gaming</span>
+                            <span>Gaming Officer</span>
                         </div>
                 </Card>
 
@@ -66,7 +70,7 @@ export default function Team(){
                     <CardMedia
                         component="img"
                         height="200"
-                        image={knight2}
+                        image={juju}
                         alt="green iguana"
                     />
                     <Typography>
@@ -74,7 +78,7 @@ export default function Team(){
                     </Typography>
                         <div className='CardText'>
                             
-                            <span>Round Table Community</span>
+                            <span>Community Officer</span>
                         </div>
                 </Card>
                 

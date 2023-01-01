@@ -1,13 +1,12 @@
 .HomeBody{
-  
   // -webkit-text-stroke-color: #390303;
   
   // -webkit-text-stroke: 0.1px black;
 
     
   .HomeHead{
-    color: #ffd000;
-    text-shadow:  20px 20px 20px rgb(0, 0, 0);
+    color: #eacb03;
+    text-shadow:  20px 20px 20px rgb(255, 189, 67);
     // -webkit-animation: glow 2s linear infinite;
     margin-top: 35vh;
     font-family: 'Ringbearer Medium';
@@ -21,12 +20,14 @@
     -webkit-animation: fadein 3s ease;
       padding-right: 10vw;
       padding-left: 10vw;
-      color: whitesmoke;
+      color: rgb(255, 255, 255);
       font-size: 1.5vw;
       font-family:'HighTower';
       font-style: normal;
       font-weight: normal;
-      text-shadow:  0 2px 5px rgb(0, 0, 0);
+      text-shadow:  1px 1px 1px rgb(0, 0, 0);
+      box-shadow: #7b0c00;
+
       
   }
     .castlebig{
@@ -57,7 +58,7 @@
     -webkit-text-stroke-width: 0.1vh;
   }
   50%{
-    text-shadow:  0px 0px 10px rgb(255, 187, 0);
+    text-shadow:  0px 0px 10px rgb(254, 218, 37);
     -webkit-text-stroke-color: #7b0c00;
     -webkit-text-stroke-width: 0.1vh;
   }

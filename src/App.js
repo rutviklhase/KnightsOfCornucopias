@@ -12,6 +12,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import Footer from "./components/Footer/Footer"
 import NFT from './components/NFTs/NFT';
 import Faq from './components/Faq/Faq';
+import YoutubeVideos from './components/youtube/YoutubeVideos';
 function App() {
   return (
     
@@ -24,11 +25,13 @@ function App() {
         <Menubar />
         <HomeBody />
         <BigCastle />
-        <SmallCastle size = "400px"/>
+        <SmallCastle/>
         <Roadmap />
         <Team />
         <NFT/>
+        <YoutubeVideos/>
         <Faq/>
+       
         <Footer/>
         
         

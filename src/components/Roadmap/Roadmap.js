@@ -18,13 +18,13 @@ export default function Roadmap(){
             <div className="Map"> 
             
                 <img src={road} className="road"></img>
-                <div className="roadname">Roadmap First Item</div>
+                <div className="roadname">*RoadMap Is Under Construction*</div>
                 <img src={line} className="line"></img>
                 <img src={road} className="road"></img>
-                <div className="roadname">Roadmap Second Item</div>
+                <div className="roadname"></div>
                 <img src={line} className="line"></img>
                 <img src={road} className="road"></img>
-                <div className="roadname">Roadmap Third Item</div>
+                <div className="roadname"></div>
                 <img src={line2} className="line"></img>
                 <img src={island} className="island"/>
             </div>

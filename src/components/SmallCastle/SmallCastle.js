@@ -3,10 +3,10 @@ import castle from "../../assets/images/castle.png"
 import castlesmall from "../../assets/images/castlesmall.png"
 import './SmallCastle.scss'
 
-export default function SmallCastle(props){
+export default function SmallCastle(){
     return(
         <div className="SmallCastle">
-                <img classsName="Castle2" src={castlesmall} width={props.size}/>
+                <img className="Castle2" src={castlesmall}/>
         </div>
     )
 }

@@ -3,8 +3,10 @@
     position: absolute;
     -webkit-animation: wiggle2 10s linear infinite;
     top: 10vh;
-    
     z-index: -1;
+    .Castle2{
+        width: 20vw;
+    }
  }
  
  @keyframes wiggle2

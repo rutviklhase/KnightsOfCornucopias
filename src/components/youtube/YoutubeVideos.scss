@@ -1,0 +1,24 @@
+.YoutubeVideos{
+    .YoutubeHead{
+        position:relative;
+        z-index: 4;
+        color: #f7d22d;
+        text-shadow:  20px 20px 20px rgb(255, 200, 0);
+        -webkit-animation: glow 2s linear infinite;
+        -webkit-text-stroke: 0.1px black;
+        -webkit-text-stroke-color: #392f03;
+        font-family: 'Ringbearer Medium';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2vw;
+    }
+    padding-bottom: 50vh;
+
+    .Videos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}

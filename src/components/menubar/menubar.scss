@@ -22,15 +22,20 @@
         .Roadmap{
          padding: 2vh 1vw;
          font-size: 3vh;
+         a{
+            text-decoration: none;
+            color: white;
+            
+         }
         }
         .Team{
          padding: 2vh 2vw;
          font-size: 3vh;
         }
         .LogoMain{
-         padding-right: 53vw;
+         padding-right: 38vw;
             img{
-               width: 15vw;
+               height: 8vh;
             }
         }
       }

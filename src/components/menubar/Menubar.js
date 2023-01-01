@@ -10,6 +10,12 @@ export default function Menubar()
             <nav className="Navbar"> 
                 <list className = "Menulist">
                 <li className="Roadmap">
+                       <a href="https://drive.google.com/file/d/1vwY1wH_x0lGOF_4P65iRM6EtbxcvSUO2/view">WHITEPAPER</a> 
+                    </li>
+                <li className="Roadmap">
+                        FAQ
+                    </li>
+                <li className="Roadmap">
                         ROADMAP
                     </li>
                     <li className="Team">

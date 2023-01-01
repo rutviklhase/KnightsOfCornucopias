@@ -1,6 +1,12 @@
 .Footer{
-    color: white;
-    background-color: black;
-    margin-top: 100vh;
-    height: 50vh;
+    .footercontent{
+       height: 20vh;
+       background-color: black;
+       width: 100vmax;
+       img{
+        padding-top: 5vh;
+        width: 20vw;
+       }
+    }
+
 }
