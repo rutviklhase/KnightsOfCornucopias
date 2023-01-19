@@ -5,9 +5,18 @@
    width: 100vw;
    top: 0px;
    z-index: 9999;
-   
+   scroll-behavior: smooth;
+   text-decoration: none;   
    
    .Navbar{
+      .socialsbox{
+         .discord{
+            width: 2vw;
+            padding-top: 2vh;
+         }
+         padding-top: 30vh;
+      }
+      
       
       font-family:HighTower;
       .Menulist{
@@ -15,9 +24,11 @@
         display: flex;
         flex-direction: row-reverse;
         padding-right: 5vw;
+        text-decoration: none;  
         .Home{
          padding: 2vh 1vw;
          font-size: 3vh;
+         visibility: hidden;
         }
         .Roadmap{
          padding: 2vh 1vw;
@@ -31,9 +42,11 @@
         .Team{
          padding: 2vh 2vw;
          font-size: 3vh;
+         scroll-behavior: smooth;
+         text-decoration: none;  
         }
         .LogoMain{
-         padding-right: 38vw;
+         padding-right: 35vw;
             img{
                height: 8vh;
             }

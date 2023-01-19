@@ -16,7 +16,9 @@ export default function Roadmap(){
             
             <h1 className="RoadmapHead">----- Join Us On Our Journey! -----</h1>
             <div className="Map"> 
-            
+                 <p className="HomeContent">
+            The Knights of Cornucopias is a CNFT gaming guild for Cornucopias Game that is being built on the Cardano blockchain. As a guild, we have acquired a massive inventory of Cornucopias NFTs and have also created our own Knight NFTs that will have in-game utility as well as income potential. The Knights is not only the premier in-game Guild, we are also a positive community that advocates for players from all over the world. Join us and rise to the top of the metaverse as we build and grow together.
+            </p>
                 <img src={road} className="road"></img>
                 <div className="roadname">*RoadMap Is Under Construction*</div>
                 <img src={line} className="line"></img>
@@ -27,6 +29,8 @@ export default function Roadmap(){
                 <div className="roadname"></div>
                 <img src={line2} className="line"></img>
                 <img src={island} className="island"/>
+
+                
             </div>
 
             </Parallax>

@@ -1,6 +1,8 @@
-.Team{
-    z-index: 4;
+.Teamm{
+    position: relative;
+    padding-top: 100vh;
     .TeamHeading{
+        padding-bottom: 5vh;
         color: #f7d22d;
         text-shadow:  20px 20px 20px rgb(255, 200, 0);
         -webkit-animation: glow 2s linear infinite;
@@ -19,5 +21,25 @@
     .TeamMems{
         display: flex;
         justify-content: center;
+    }
+    .bio{
+        padding-bottom: 2vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        text-align: left;
+        font-family: 'Ringbearer';
+        color: white;
+        display: flex;
+        .circleimage{
+            width: 20vh;
+            height: 20vh;
+
+        }
+        .biobody{
+            .bioname{
+                color: #e6c120;
+            }
+            padding-left: 5vw;
+        }
     }
 }

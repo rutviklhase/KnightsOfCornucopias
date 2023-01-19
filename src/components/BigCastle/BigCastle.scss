@@ -1,11 +1,11 @@
 .BigCastle{
-   padding-left: 50vw;
+   padding-left: 100vw;
    position: absolute;
-   top: 100vh;
+   margin: -90vh;
    -webkit-animation: wiggle 5s ease infinite;
    z-index: 9998;
    .Castle1{
-    max-width: 120vh;
+    width: 25vw;
  }
 }
 

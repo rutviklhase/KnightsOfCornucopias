@@ -1,4 +1,5 @@
 .NFTs{
+    margin-top: -80vh;
     font-size: 100px;
     .NFTHead{
         position:relative;
@@ -12,17 +13,33 @@
         font-style: normal;
         font-weight: normal;
         font-size: 2vw;
-       
-        
+        margin-top: -8vh;
     }
     .NFTContent{
+        .HomeContent{
+            -webkit-animation: fadein 3s ease;
+              padding-right: 10vw;
+              padding-left: 10vw;
+              color: rgb(255, 255, 255);
+              font-size: 1.5vw;
+              font-family:'HighTower';
+              font-style: normal;
+              font-weight: normal;
+              text-shadow:  2px 2px 4px #000000;
+              box-shadow: #7b0c00;
+        
+              
+          }
         display: flex;
         justify-content: center;
         .NFT{
-            padding-left: 3vw;
+            padding-top: 5vh;
+            padding-left: 1vw;
             img{
-                border-radius: 3vw;
-                width: 20vw;
+                border-radius: 5vw;
+                width: 15vw;
+                height: 50vh;
+                margin-left: 2vw;
             }
             
         }

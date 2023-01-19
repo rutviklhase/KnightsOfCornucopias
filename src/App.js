@@ -13,6 +13,7 @@ import Footer from "./components/Footer/Footer"
 import NFT from './components/NFTs/NFT';
 import Faq from './components/Faq/Faq';
 import YoutubeVideos from './components/youtube/YoutubeVideos';
+import Socials from './components/Socials/Socials';
 function App() {
   return (
     
@@ -23,12 +24,14 @@ function App() {
 
         </div>
         <Menubar />
-        <HomeBody />
+        <Socials/>
         <BigCastle />
         <SmallCastle/>
         <Roadmap />
-        <Team />
+        <HomeBody />
         <NFT/>
+        <Team />
+        
         <YoutubeVideos/>
         <Faq/>
        

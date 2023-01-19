@@ -1,5 +1,11 @@
 .Faq{
-    margin-top: -20vh;
+    .FAQSection{
+        padding-top: 3vh;
+    }
+    h6{
+        font-family: 'Ringbearer Medium';
+    }
+    margin-top: -30vh;
     padding-bottom: 10vh;
     .FaqHeading{
         color: #f7d22d;
@@ -19,7 +25,7 @@
         padding-left: 10vw;
         padding-top: 2vh;
         color: whitesmoke;
-        font-size: 1.5vw;
+        font-size: 1vw;
         font-family:'HighTower';
         font-style: normal;
         font-weight: normal;
@@ -45,5 +51,23 @@
         font-size: 1vw;
 
     }
-
+    .MuiButtonBase-root {
+        font-family: 'Ringbearer Medium';
+        padding-left: 10vw;
+        background-color: rgba(0,0,0,0.3);
+      
+    }
+    .MuiPaper-root{
+        color: white;
+        background-color: rgba(0,0,0,0.3);
+        font-family: 'Ringbearer Medium';
+        .Ans{
+            color: #f7d22d;
+            text-align: left;
+        }
+        }
+    .MuiTypography-root{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
 }

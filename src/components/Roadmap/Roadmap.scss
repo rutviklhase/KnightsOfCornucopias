@@ -3,7 +3,7 @@
         margin-bottom: -5vh;
         position:relative;
         z-index: 4;
-        padding-top: 130vh;
+        padding-top: 55vh;
         color: #f7d22d;
         text-shadow:  20px 20px 20px rgb(255, 200, 0);
         -webkit-animation: glow 2s linear infinite;
@@ -13,28 +13,46 @@
         font-style: normal;
         font-weight: normal;
         font-size: 2vw;
+        visibility: hidden;
     }
     .Map{
+        .HomeContent{
+            -webkit-animation: fadein 3s ease;
+              padding-right: 10vw;
+              padding-left: 10vw;
+              color: rgb(255, 255, 255);
+              font-size: 1.5vw;
+              font-family:'HighTower';
+              font-style: normal;
+              font-weight: normal;
+              text-shadow:  2px 2px 4px #000000;
+              box-shadow: #7b0c00;
+            visibility: hidden;
+              
+          }
         display: grid;
         padding-top: 10vh;
         
         .line{
             padding-left: 48vw;
             width: 0.8vh;
+            visibility:hidden;
         }
         .road{
             margin-top: -2vh;
             padding-left: 37vw;
             margin-bottom: -3vh;
             width: 25vw;
+            visibility:hidden;
         }
         .roadtop{
             padding-left: 38vw;
         }
         .roadname{
+            visibility: hidden;
             margin-top: -6vh ;
             font-family: HighTower;
-            font-size: 3vh;
+            font-size: 5vh;
             font-weight: 100;
             color: white;
             padding-right: 2vw;
